@@ -1,0 +1,99 @@
+.header{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #567086;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+    box-shadow: rgba(69, 92, 113, 0.59) 0px 3px;
+}
+
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 22px;
+    cursor: pointer;
+}
+.login{
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s;
+    cursor: pointer
+}
+.login:hover{
+    color: #F5A623;
+}
+.menuItems{
+    display: flex;
+    margin: 0px 100px;
+}
+.links{
+    color:white;
+    text-decoration: none;
+}
+
+.hambergerDiv{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0 1px 1px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid #708da8;
+    display: none;
+}
+.hambergerDiv:hover{
+    border-color: #f5a623;
+    color: #f5a623;
+}
+.hamIcon{
+    font-size: 20px;
+}
+.dropDown{
+    position: absolute;
+    right: 0;
+    top: 42px;
+    width: 200px;
+    height: 220px;
+    background-color: #567086;
+    z-index: 900;
+    transition: all 0.2s ease;
+    box-shadow: 0px 0px 4px #708da8;
+    display: none;
+}
+.dropdownMenu{
+    height: 100%;
+    overflow: hidden;
+    /* display: block; */
+}
+@keyframes anim{
+    0%{
+        max-height: 0%
+    }
+    100%{
+        max-height: 100%;
+    }
+}
+@media (max-width: 600px){
+    .header{
+        justify-content: space-between;
+        padding: 20px 15px;
+    }
+    .login{
+        display: none;
+    } 
+    .menuItems{
+        display: none;
+    }
+    .title{
+        box-sizing: border-box;
+    }
+    .hambergerDiv{
+        display: flex;
+    }
+}

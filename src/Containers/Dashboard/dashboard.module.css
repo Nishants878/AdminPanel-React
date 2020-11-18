@@ -1,0 +1,220 @@
+.mainDiv{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 100px 200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.chartWrapper{
+    width: 550px;
+    height: 400px; 
+    box-sizing: border-box;
+    background-color:  #435C70;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    margin-top: 50px;
+}
+.lineChartWrapper{
+    position: relative;
+    width: 550px;
+    height: 400px; 
+    box-sizing: border-box;
+    background-color:  #435C70;
+    box-shadow: 1px 1px 5px 0 #455c71;
+}
+.barChartWrapper{
+    width: 550px;
+    height: 400px; 
+    background-color:  #435C70;
+    box-shadow: 1px 1px 5px 0 #455c71;
+}
+.chartH3{
+    box-sizing: border-box;
+    padding-left: 60px;
+    margin-top: 60px;
+}
+
+.notificationDivWrapper{
+    width: 100%;
+    height: 280px;
+    box-sizing: border-box;
+    padding: 0px 50px;
+}
+.notificationDiv{
+    width: 100%;
+    height: 280px;
+    box-sizing: border-box;
+    /* background-color: #fff; */
+    overflow-y: scroll;
+}
+.testDiv{
+    width: 100%;
+    height: 100px;
+    background-color: #4E657A;
+    display: flex;;
+    box-sizing: border-box;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.image{
+    height: 100%;
+    width: 18%;
+    border-radius: 50%;
+}
+.descDiv{
+    width: 78%;
+}
+.desc{
+    font-size: 14px;
+    font-weight: 700;                                        
+}
+.time{
+    font-size: 13px;
+    color: #BDCBD5;
+}
+.orderListmainWrapper{
+    width: 100%;
+    padding: 35px;
+    margin-top: 50px;
+    background-color: #435C70;
+    overflow-y: scroll;
+    height: 400px;
+}
+.orderListmainWrapper > h3{
+    margin: 0;
+}
+.orderTableDiv{
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.mainTable{
+    width: 100%;
+    background-color: #486177;
+}
+.headingRow > th{
+    font-size: 14px;
+    padding: 16px 15px;
+    text-align: left;
+    background-color:#486177;
+    text-transform: uppercase;
+}
+tr{
+    row-gap: none;
+    background-color: #50697F;
+    border-collapse: collapse;
+    border: none;
+}
+td{
+    padding: 16px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #50697F;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.orderNo{
+    max-width: 50px;
+}
+.status{
+    max-width: 80px;
+    display: flex;
+    align-items: center;
+}
+.oper{
+    max-width: 50px;
+}
+.location{
+    max-width: 80px;
+}
+.distance{
+    max-width: 50px;
+}
+.data{
+    max-width: 120px;
+}
+.est{
+    max-width: 110px; 
+} 
+.spanPara{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.Pending{
+    background-color: #EFC54B;
+    box-shadow: 0px 0px 4px #EFC54B;
+}
+.Moving{
+    background-color: #9BE64D;
+    box-shadow: 0px 0px 4px #9BE64D;
+}
+.Cancelled{
+    background-color: #DA534F;
+    box-shadow: 0px 0px 4px #DA534F;
+}
+
+
+
+@media (max-width: 600px){
+    .mainDiv{
+        width: 100%;
+        display: block;
+        padding: 0px;
+    }
+    .chartWrapper{
+        width: 95%;
+        height: 350px; 
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .lineChartWrapper{
+        width: 95%;
+        height: 350px;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .barChartWrapper{
+        width: 95%;
+        height: 350px;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .chartH3{
+        box-sizing: border-box;
+        padding-left: 20px;
+        margin-top: 0px;
+    }
+    .chartWrapper > h3{
+        box-sizing: border-box;
+        padding-left: 20px;
+    }
+    .notificationDivWrapper{
+        height: 100%;
+        padding: 0px 20px;
+    }
+    .notificationDiv{
+        width: 100%;
+        height: 280px;
+    }
+    .testDiv{
+        margin-bottom: 10px;
+    }
+    .orderListmainWrapper{
+        width: 95%;
+        box-sizing: border-box;
+        margin: 20px auto;
+        padding: 20px;
+        height: 500px;
+    }
+}

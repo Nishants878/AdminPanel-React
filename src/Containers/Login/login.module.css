@@ -1,0 +1,47 @@
+.loginDiv{
+    background-color: #435C70;
+    width: 450px;
+    margin: 100px auto;
+    box-sizing: border-box;
+    padding: 35px; 
+    box-shadow: 1px 1px 5px 0 #455c71;
+    height: 500px;
+}  
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    outline: none;
+    font-size: 16px;
+    background-color: #54657D;
+    border: 2px solid #54657D;
+    transition: all 0.2s;
+    margin-bottom: 10px;
+}
+.input:focus{
+    border: 2px solid #ACC6D8
+}
+.inputText{
+    font-size: 14px;
+    width: 100%;
+}
+
+.submitButton{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 17px;
+    background-color: #F5A623;
+    border: 2px solid #F5A623;
+    transition: all 0.3s;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.submitButton:hover{
+    background-color: #435C70;
+}

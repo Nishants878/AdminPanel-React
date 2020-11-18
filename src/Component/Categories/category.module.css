@@ -1,0 +1,28 @@
+.mainDiv{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #50697F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    margin-bottom: 1px;
+}
+.title{
+    margin: 0;
+
+}
+.iconWrapper{
+    width: 35px;
+    height: 35px;
+    background-color: #394E64;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.deleteIcon{
+    font-size: 14px;
+    
+}

@@ -1,0 +1,30 @@
+.item{
+    transition: all 0.3s;
+    padding: 28px;
+    cursor: pointer;
+    text-align: center;
+}
+.moboItem{
+    padding: 12px;
+}
+.menuLogo{
+    font-size: 22px;
+}
+.menuName{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.item:hover{
+    color: #F5A623;
+}
+.active{
+    background-color: #F5A623;
+    color: white;
+}
+.active:hover{
+    color: white;
+}
+.angleDown{
+    margin-left: 6px;
+}
